@@ -24,5 +24,5 @@ Uma aplicação web simples que permite ao usuário buscar dados demográficos e
 2. Abra a pasta do projeto e dê um duplo clique no arquivo `index.html` no seu navegador (ou use a extensão Live Server do VS Code).
 
 ## Links
-- **Aplicação no ar (GitHub Pages):** https://[TiagoRibas1].github.io/bootcamp2-app/
+- **Aplicação no ar (GitHub Pages):** [https://[TiagoRibas1].github.io/bootcamp2-app/](https://tiagoribas1.github.io/bootcamp2-app/)
 - **Repositório:** https://github.com/[TiagoRibas1]/bootcamp2-app
