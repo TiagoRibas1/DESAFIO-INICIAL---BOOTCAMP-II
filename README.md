@@ -3,15 +3,17 @@
 # Explorador de Países
 
 ## Autor
-[Tiago Ribeiro Van Der Broocke] — Matrícula [22606645]
+Tiago Ribeiro Van Der Broocke - Matrícula 22606645
 
 ## Descrição
 Uma aplicação web simples que permite ao usuário buscar dados demográficos e geográficos de qualquer país do mundo. É útil para estudantes, curiosos ou qualquer pessoa que precise de informações rápidas sobre um país específico.
 
 ## API utilizada
+## API utilizada
 - **REST Countries API** - [https://restcountries.com/](https://restcountries.com/)
-- **Endpoint consumido:** `https://restcountries.com/v3.1/name/{name}`
-
+- **Endpoints consumidos:** 
+  - `https://restcountries.com/v3.1/translation/{name}` (busca em português)
+  - `https://restcountries.com/v3.1/name/{name}` (busca em inglês)
 ## Funcionalidades
 - Busca de países por nome (em inglês).
 - Exibição da bandeira oficial do país pesquisado.
@@ -24,5 +26,5 @@ Uma aplicação web simples que permite ao usuário buscar dados demográficos e
 2. Abra a pasta do projeto e dê um duplo clique no arquivo `index.html` no seu navegador (ou use a extensão Live Server do VS Code).
 
 ## Links
-- **Aplicação no ar (GitHub Pages):** [https://[TiagoRibas1].github.io/bootcamp2-app/](https://tiagoribas1.github.io/bootcamp2-app/)
-- **Repositório:** https://github.com/[TiagoRibas1]/bootcamp2-app
+- **Aplicação no ar (GitHub Pages):** https://TiagoRibas1.github.io/bootcamp2-app/(https://TiagoRibas1.github.io/bootcamp2-app/)
+- **Repositório:** https://github.com/TiagoRibas1/bootcamp2-app
