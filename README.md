@@ -38,4 +38,4 @@ Aplicação no ar (GitHub Pages): https://TiagoRibas1.github.io/bootcamp2-app/
 
 Repositório GitHub: https://github.com/TiagoRibas1/bootcamp2-app
 
-Imagem no Docker Hub: https://hub.docker.com/r/TiagoRibas1/bootcamp2-app
+Imagem no Docker Hub: https://hub.docker.com/r/tiagoribas/bootcamp2-app
