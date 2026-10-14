@@ -20,6 +20,14 @@ Aplicação web para consultar dados de países, visualizar bandeiras e salvar u
 - **Listar favoritos (Read):** Carrega os itens salvos do banco ao abrir a página.
 - **Remover favorito (Delete):** Exclui o registro do banco de dados ao clicar em "Excluir".
 
+## Sidequests
+
+### SQ1 - Por que usar .dockerignore?
+O ficheiro .dockerignore evita que ficheiros desnecessários (como a pasta .git e documentações) entrem no contexto de criação do Docker, tornando a imagem mais leve e o processo de build mais rápido.
+
+### SQ4 - Se eu tivesse 100 containers, como gerenciaria?
+Gerenciar centenas de containers manualmente via terminal seria inviável. Para isso, utilizaria o Kubernetes. Nele, um Cluster junta as máquinas físicas ou virtuais que executam a aplicação. Os containers são organizados dentro de Pods (a menor unidade de execução), e as Réplicas garantem que a quantidade correta de instâncias permaneça ativa automaticamente, oferecendo balanceamento de carga, escalabilidade e autorrecuperação em caso de falhas.
+
 ## Como rodar via Docker
 Para executar o container público da aplicação:
 
