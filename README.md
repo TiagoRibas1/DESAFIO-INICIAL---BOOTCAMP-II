@@ -53,4 +53,4 @@ Overview do repositório atualizado com a explicação do projeto, comando `dock
 ![Print SQ4](print_sq4.png)
 
 **Como gerenciar 100 containers?**
-Usaria **Kubernetes**. As máquinas formam um **Cluster**, os containers rodam em **Pods** e as **Réplicas** mantêm o número de instâncias rodando automaticamente, garantindo escala e alta disponibilidade sem gestão manual.
+Usaria **kubernetes**. As máquinas formam um **cluster**, os containers rodam em **pods** e as **réplicas** mantêm o número de instâncias rodando automaticamente, garantindo escala e alta disponibilidade sem gestão manual.
