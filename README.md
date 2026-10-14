@@ -5,37 +5,21 @@
 ## Autor
 Tiago Ribeiro Van Der Broocke - Matrícula 22606645
 
-## Descrição
-Aplicação web para consultar dados de países, visualizar bandeiras e salvar uma lista de favoritos em um banco de dados.
+Aplicação web interativa para busca de informações de países e localidades consumindo a API Open-Meteo, com funcionalidade de adição/remoção de favoritos e ordenação de dados.
 
-## Tecnologias e APIs
-- **Frontend:** HTML5, CSS3 e JavaScript (ES6 Modules)
-- **API de Busca:** Open-Meteo Geocoding API e FlagCDN
-- **Banco de Dados:** Supabase (PostgreSQL)
-- **Container:** Docker (imagem Nginx Alpine)
 
-## Funcionalidades
-- **Consulta:** Busca dados do país (região, código, população) e exibe a bandeira oficial.
-- **Adicionar favorito (Create):** Salva o país e sua região na tabela do Supabase.
-- **Listar favoritos (Read):** Carrega os itens salvos do banco ao abrir a página.
-- **Remover favorito (Delete):** Exclui o registro do banco de dados ao clicar em "Excluir".
 
-## Sidequests
+##  Links do projeto
 
-### SQ1 - Por que usar .dockerignore?
-O ficheiro .dockerignore evita que ficheiros desnecessários (como a pasta .git e documentações) entrem no contexto de criação do Docker, tornando a imagem mais leve e o processo de build mais rápido.
+1. **Repositório GitHub:** https://github.com/TiagoRibas1/bootcamp2-app
+2. **Aplicação no GitHub Pages:** https://tiagoribas1.github.io/bootcamp2-app/
+3. **Repositório no Docker Hub:** https://hub.docker.com/r/tiagoribas/bootcamp2-app
 
-### SQ4 - Se eu tivesse 100 containers, como gerenciaria?
-Gerenciar centenas de containers manualmente via terminal seria inviável. Para isso, utilizaria o Kubernetes. Nele, um Cluster junta as máquinas físicas ou virtuais que executam a aplicação. Os containers são organizados dentro de Pods (a menor unidade de execução), e as Réplicas garantem que a quantidade correta de instâncias permaneça ativa automaticamente, oferecendo balanceamento de carga, escalabilidade e autorrecuperação em caso de falhas.
 
-## Como rodar via Docker
-Para executar o container público da aplicação:
+
+##  Executar container
+
+Para rodar a aplicação localmente via Docker, execute o comando abaixo no terminal:
 
 ```bash
-docker run -d -p 8080:80 tiagoribas/bootcamp2-app:1.0
-## Links
-Aplicação no ar (GitHub Pages): https://TiagoRibas1.github.io/bootcamp2-app/
-
-Repositório GitHub: https://github.com/TiagoRibas1/bootcamp2-app
-
-Imagem no Docker Hub: https://hub.docker.com/r/tiagoribas/bootcamp2-app
+docker run -d -p 8080:80 tiagoribas/bootcamp2-app:latest
