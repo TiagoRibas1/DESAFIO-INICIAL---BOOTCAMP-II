@@ -25,3 +25,9 @@ Para executar o container público da aplicação:
 
 ```bash
 docker run -d -p 8080:80 TiagoRibas1/bootcamp2-app:1.0
+## Links
+Aplicação no ar (GitHub Pages): https://TiagoRibas1.github.io/bootcamp2-app/
+
+Repositório GitHub: https://github.com/TiagoRibas1/bootcamp2-app
+
+Imagem no Docker Hub: https://hub.docker.com/r/TiagoRibas1/bootcamp2-app
