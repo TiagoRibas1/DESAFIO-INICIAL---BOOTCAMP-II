@@ -32,7 +32,7 @@ Gerenciar centenas de containers manualmente via terminal seria inviável. Para 
 Para executar o container público da aplicação:
 
 ```bash
-docker run -d -p 8080:80 TiagoRibas1/bootcamp2-app:1.0
+docker run -d -p 8080:80 tiagoribas/bootcamp2-app:1.0
 ## Links
 Aplicação no ar (GitHub Pages): https://TiagoRibas1.github.io/bootcamp2-app/
 
