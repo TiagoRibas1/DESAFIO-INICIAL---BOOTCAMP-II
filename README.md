@@ -23,3 +23,34 @@ Para rodar a aplicação localmente via Docker, execute o comando abaixo no term
 
 ```bash
 docker run -d -p 8080:80 tiagoribas/bootcamp2-app:latest
+
+```
+
+## Persistência de Dados
+
+- **Banco de Dados:** Supabase (PostgreSQL)
+- **Tabela:** `favoritos`
+- **Campos:** `id` (PK), `nome`, `latitude`, `longitude`, `codigo_pais` (para carregar a bandeira via FlagCDN) e `criado_em` (timestamp).
+
+---
+
+## Sidequests
+
+### SQ1 · `.dockerignore`
+Criado para ignorar `.git`, `README.md` e arquivos locais no build, reduzindo o tamanho da imagem e acelerando o processo.
+
+### SQ2 · Tags no Docker Hub
+- `1.0`: Primeira versão funcional.
+- `1.1`: Versão com melhorias.
+- `latest`: Última versão estável.
+
+### SQ3 · Descrição no Docker Hub
+Overview do repositório atualizado com a explicação do projeto, comando `docker run` e link do GitHub.
+
+### SQ4 · Orquestração e Kubernetes
+
+**Evidência dos 2 containers rodando (`docker ps`):**
+![Print SQ4](print_sq4.png)
+
+**Como gerenciar 100 containers?**
+Usaria **Kubernetes**. As máquinas formam um **Cluster**, os containers rodam em **Pods** e as **Réplicas** mantêm o número de instâncias rodando automaticamente, garantindo escala e alta disponibilidade sem gestão manual.
